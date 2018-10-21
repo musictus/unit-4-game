@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Crystal Game</title>
+        <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery.js"></script>
+    </head>
+
+    <body>
+
+        <div class="jumbotron container">
+
+                    <div class="row">
+                        <div class="col-3"></div>
+                        <div class="col-6">
+                            <h1 class="display-4 text-center">Crystals Collector!</h1>
+                                <p class="lead text-center">CLICK ON THE CRYSTAL</p>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-4"></div>
+                            <button type="button" class="col-2 btn btn-primary">
+                                    Wins <span class="badge badge-light wins">0</span>
+                                    <span class="sr-only"></span>
+                            </button>
+                            <button type="button" class="col-2 btn btn-danger">
+                                Losses <span class="badge badge-light losses">0</span>
+                                <span class="sr-only"></span>
+                        <div class="col-4"></div>
+                        </button>
+                    </div>
+
+            <hr class="my-4">
+    
+                    <div class="row">
+                        <div class="col-3"></div>
+                            <div class="col-6 card text-center bg-light mb-3" style="width: 500px; height: 100px;">
+                                <h2 class="card-body master-number">
+                                    Master Number
+                                </h2>
+                            </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-3"></div>        
+                            <div class="col-6 card text-center text-white bg-dark mb-3" style="width: 500px; height: 100px;">
+                                <h2 class="card-body sum-number">
+                                    Sum of Crystal Numbers
+                                </h2>
+                                <p class="text-dark my-3">Click and guess the hidden numbers behind the crystals and match the number in the white box!</p>
+                            </div>
+                        <div class="col-3"></div>         
+                    </div>
+
+            <hr class="my-5">   
+
+                    <div class="row">
+                        <img src="assets/images/c1.png" class="col-3 image-crystal1" style="width: 50px; height: auto;"></img>
+                        <img src="assets/images/c2.png" class="col-3 image-crystal2" style="width: 50px; height: auto;"></img>
+                        <img src="assets/images/c3.png" class="col-3 image-crystal3" style="width: 50px; height: auto;"></img>
+                        <img src="assets/images/c4.png" class="col-3 image-crystal4" style="width: 50px; height: auto;"></img>
+                    </div>
+        
+        </div>
+
+        <script src="assets/javascript/game.js"></script>
+
+
+
+    </body>
+
+</html>
